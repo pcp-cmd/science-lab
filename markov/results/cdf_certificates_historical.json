@@ -1,0 +1,412 @@
+{
+  "main": {
+    "D": [
+      [
+        "1",
+        "-2/3"
+      ],
+      [
+        "-2",
+        "4/3"
+      ],
+      [
+        "1/3",
+        "1/3"
+      ],
+      [
+        "-2/3",
+        "-2/3"
+      ]
+    ],
+    "H": [
+      [
+        "1/3",
+        "-2/9"
+      ],
+      [
+        "-2/3",
+        "4/9"
+      ],
+      [
+        "1/9",
+        "1/9"
+      ],
+      [
+        "-2/9",
+        "-2/9"
+      ]
+    ],
+    "R": [
+      [
+        "22/27",
+        "-20/27"
+      ],
+      [
+        "-2/27",
+        "-8/27"
+      ],
+      [
+        "13/27",
+        "-16/27"
+      ],
+      [
+        "-2/27",
+        "26/27"
+      ]
+    ],
+    "norm_D": "10/3",
+    "norm_H": "10/9",
+    "norm_H1": "4/9",
+    "norm_R": "14/9",
+    "kappa": "4/3",
+    "mean_averaged": [
+      [
+        "9/13"
+      ],
+      [
+        "42/65"
+      ]
+    ],
+    "constant_column": "1604/585",
+    "constant_kill": "49/18",
+    "constant_infinite": "49/18",
+    "constant_T5": "28/3",
+    "strong_exact": false,
+    "survival_exact": false,
+    "krylov_residuals": [
+      "4/3",
+      "2"
+    ],
+    "identities": {
+      "KJ=0": true,
+      "PK=0": true,
+      "PJ=I": true,
+      "PD=0": true,
+      "KH=-D": true,
+      "PH=0": true
+    }
+  },
+  "strong_exact": {
+    "D": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    "H": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    "R": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    "norm_D": "0",
+    "norm_H": "0",
+    "norm_H1": "0",
+    "norm_R": "0",
+    "kappa": "1",
+    "mean_averaged": [
+      [
+        "1"
+      ],
+      [
+        "1"
+      ]
+    ],
+    "constant_column": "0",
+    "constant_kill": "0",
+    "constant_infinite": "0",
+    "constant_T5": "0",
+    "strong_exact": true,
+    "survival_exact": true,
+    "krylov_residuals": [
+      "0",
+      "0"
+    ],
+    "identities": {
+      "KJ=0": true,
+      "PK=0": true,
+      "PJ=I": true,
+      "PD=0": true,
+      "KH=-D": true,
+      "PH=0": true
+    }
+  },
+  "survival_exact_not_lumpable": {
+    "D": [
+      [
+        "2/3",
+        "-2/3"
+      ],
+      [
+        "-4/3",
+        "4/3"
+      ],
+      [
+        "1/3",
+        "-1/3"
+      ],
+      [
+        "-2/3",
+        "2/3"
+      ]
+    ],
+    "H": [
+      [
+        "2/9",
+        "-2/9"
+      ],
+      [
+        "-4/9",
+        "4/9"
+      ],
+      [
+        "1/9",
+        "-1/9"
+      ],
+      [
+        "-2/9",
+        "2/9"
+      ]
+    ],
+    "R": [
+      [
+        "17/27",
+        "-17/27"
+      ],
+      [
+        "-22/27",
+        "22/27"
+      ],
+      [
+        "16/27",
+        "-16/27"
+      ],
+      [
+        "-26/27",
+        "26/27"
+      ]
+    ],
+    "norm_D": "8/3",
+    "norm_H": "8/9",
+    "norm_H1": "0",
+    "norm_R": "52/27",
+    "kappa": "1",
+    "mean_averaged": [
+      [
+        "1"
+      ],
+      [
+        "1"
+      ]
+    ],
+    "constant_column": "76/27",
+    "constant_kill": "76/27",
+    "constant_infinite": "0",
+    "constant_T5": "284/27",
+    "strong_exact": false,
+    "survival_exact": true,
+    "krylov_residuals": [
+      "0",
+      "0"
+    ],
+    "identities": {
+      "KJ=0": true,
+      "PK=0": true,
+      "PJ=I": true,
+      "PD=0": true,
+      "KH=-D": true,
+      "PH=0": true
+    }
+  },
+  "zero_direct_kill": {
+    "D": [
+      [
+        "2/3",
+        "-2/3"
+      ],
+      [
+        "-4/3",
+        "4/3"
+      ],
+      [
+        "-1/3",
+        "2/3"
+      ],
+      [
+        "2/3",
+        "-4/3"
+      ]
+    ],
+    "H": [
+      [
+        "2/9",
+        "-2/9"
+      ],
+      [
+        "-4/9",
+        "4/9"
+      ],
+      [
+        "-1/9",
+        "2/9"
+      ],
+      [
+        "2/9",
+        "-4/9"
+      ]
+    ],
+    "R": [
+      [
+        "1/3",
+        "-14/27"
+      ],
+      [
+        "2/3",
+        "-20/27"
+      ],
+      [
+        "-1/27",
+        "1/9"
+      ],
+      [
+        "-22/27",
+        "10/9"
+      ]
+    ],
+    "norm_D": "8/3",
+    "norm_H": "8/9",
+    "norm_H1": "2/9",
+    "norm_R": "52/27",
+    "kappa": "0",
+    "mean_averaged": [
+      [
+        "39/20"
+      ],
+      [
+        "27/20"
+      ]
+    ],
+    "constant_column": "21/5",
+    "constant_kill": null,
+    "constant_infinite": "21/5",
+    "constant_T5": "290/27",
+    "strong_exact": false,
+    "survival_exact": false,
+    "krylov_residuals": [
+      "2/3",
+      "16/9"
+    ],
+    "identities": {
+      "KJ=0": true,
+      "PK=0": true,
+      "PJ=I": true,
+      "PD=0": true,
+      "KH=-D": true,
+      "PH=0": true
+    }
+  },
+  "rare_hazard": {
+    "D": [
+      [
+        "1"
+      ],
+      [
+        "-999"
+      ]
+    ],
+    "H": [
+      [
+        "1"
+      ],
+      [
+        "-999"
+      ]
+    ],
+    "R": [
+      [
+        "1"
+      ],
+      [
+        "998001"
+      ]
+    ],
+    "norm_D": "999",
+    "norm_H": "999",
+    "norm_H1": "999",
+    "norm_R": "998001",
+    "kappa": "1",
+    "mean_averaged": [
+      [
+        "1"
+      ]
+    ],
+    "constant_column": "999999",
+    "constant_kill": "999999",
+    "constant_infinite": "999999",
+    "constant_T5": "4992003",
+    "strong_exact": false,
+    "survival_exact": false,
+    "krylov_residuals": [
+      "999"
+    ],
+    "identities": {
+      "KJ=0": true,
+      "PK=0": true,
+      "PJ=I": true,
+      "PD=0": true,
+      "KH=-D": true,
+      "PH=0": true
+    },
+    "stationary_environment_mean": "1099/100",
+    "mean": [
+      [
+        "11"
+      ],
+      [
+        "1"
+      ]
+    ]
+  }
+}

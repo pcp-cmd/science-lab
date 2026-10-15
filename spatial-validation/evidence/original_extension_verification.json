@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "grid_rows_checked": 45,
+  "secondary_split_rows_checked": 963,
+  "monte_carlo_cases_checked": 4,
+  "max_abs_errors": {
+    "weights": 2.331483617255487e-13,
+    "true_risk": 9.547918011776346e-15,
+    "reported_variance": 3.191891195797325e-16,
+    "innovation_risk": 6.661338147750939e-16,
+    "oracle_risk": 2.220446049250313e-16,
+    "secondary_split_risk": 6.439293542825908e-15,
+    "secondary_group_risk": 6.439293542825908e-15,
+    "coupled_marginal_risk": 0.0,
+    "coupled_exact_se": 2.168404344971009e-19,
+    "raw_mean": 0.0,
+    "raw_se": 0.0
+  },
+  "decimal_checks": [
+    {
+      "true_ell": 0,
+      "assumed_ell": 10,
+      "precision_digits": 60,
+      "edge_minus_interior": "-0.00314739525068340416558708911609868837035742986201804081701616"
+    },
+    {
+      "true_ell": 2,
+      "assumed_ell": 10,
+      "precision_digits": 60,
+      "edge_minus_interior": "-0.00316908986084339255880638857792778109988277264852853503403254"
+    },
+    {
+      "true_ell": 40,
+      "assumed_ell": 40,
+      "precision_digits": 60,
+      "edge_minus_interior": "0.0558586864454197239321457670446977655360193109569716853898535"
+    }
+  ],
+  "root_residual_60_digit_formula": "-3.39718025931015968809422977752758372516809306167E-16",
+  "no_new_fields_generated": true,
+  "scope": "Independent algorithms by same researcher; not blind external review"
+}

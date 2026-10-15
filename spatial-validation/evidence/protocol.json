@@ -1,0 +1,25 @@
+{
+  "protocol_version": "1.0",
+  "n": 200,
+  "folds": 5,
+  "width": 40,
+  "ell_values": [
+    0.0,
+    0.5,
+    2.0,
+    10.0,
+    40.0,
+    200.0
+  ],
+  "primary_ell": 40.0,
+  "random_partitions": 20,
+  "replicates": 8192,
+  "deployment_start": 73,
+  "seed_partitions": 2026101501,
+  "seed_cv": 2026101502,
+  "seed_deploy_interior": 2026101503,
+  "seed_deploy_edge": 2026101504,
+  "seed_verifier": 2026101505,
+  "numeric_tolerance": 1e-09,
+  "mc_warning_z": 5.0
+}

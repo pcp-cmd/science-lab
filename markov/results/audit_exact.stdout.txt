@@ -1,0 +1,4 @@
+main Ckill= 49/18 Ccol= 1604/585 strong_exact= False survival_exact= False
+zero_direct_kill Ckill= None Ccol= 21/5 strong_exact= False survival_exact= False
+survival_exact_not_lumpable Ckill= 76/27 Ccol= 76/27 strong_exact= False survival_exact= True
+main 1% threshold = 2450/9; exact audit passed; negative controls = 9

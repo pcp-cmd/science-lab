@@ -1,0 +1,1 @@
+{'exact_survival': False, 'constant_all_time': Fraction(49, 18), 'bound_all_time': Fraction(49, 5400), 'admitted_all_time': True, 'bound_finite_horizon': Fraction(7, 225), 'horizon': Fraction(5, 1)}

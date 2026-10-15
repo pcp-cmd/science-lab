@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "extension_grid_rows": 45,
+  "max_endpoint_risk_or_reported_variance_error": 9.992007221626409e-15,
+  "primary_summary_rows": 36,
+  "checks": [
+    "all 45 grid true and reported risks",
+    "six-length primary mixture identity",
+    "iid primary control",
+    "six-length deployment endpoint risks"
+  ],
+  "not_checked": [
+    "original raw arrays",
+    "original Monte Carlo standard errors from raw samples",
+    "all original dense weight matrices",
+    "random-split exact risks across all lengths"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "all_checks_passed": true,
+  "scalar_comparisons": 232,
+  "max_absolute_discrepancy": 2.842170943040401e-14,
+  "relative_tolerance": 1e-10,
+  "new_CDF_evaluations": 0,
+  "model_speed_pairs": 6,
+  "independence_scope": "Independent algorithms and construction in the same model/session; not independent peer review."
+}

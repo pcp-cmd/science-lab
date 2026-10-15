@@ -1,0 +1,25 @@
+{
+  "verified_at_utc": "2026-10-15T11:45:34.418195+00:00",
+  "python": "3.12.14",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "scope": "Only preserved minimal examples were rerun. No historical experiment suites or new research were run.",
+  "runs": [
+    {
+      "program": "minimal_example.py",
+      "exit_code": 0,
+      "stdout": "minimal_example.stdout.txt",
+      "stderr": "",
+      "sha256": "143f589fea72f49ddca2962aba824225d6e3c7892a0087fdc5ee175e59942a03"
+    },
+    {
+      "program": "minimal_e02.py",
+      "exit_code": 0,
+      "stdout": "minimal_e02.stdout.txt",
+      "stderr": "",
+      "sha256": "efa2e73f35ca3037f4ea99a07d192375cfa37549ecef53c2469cfdcdc11a99d2"
+    }
+  ]
+}

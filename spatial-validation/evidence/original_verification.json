@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "checked_ell_split_combinations": 642,
+  "checked_weight_coefficients": 4108800,
+  "max_abs_errors": {
+    "weights_endpoint": 2.8865928166106524e-13,
+    "weights_precision": 2.8865928166106524e-13,
+    "variance_endpoint": 1.884777056648801e-15,
+    "variance_precision": 1.5154544286133387e-14,
+    "split_risk": 4.440892098500626e-16,
+    "mixture_exact": 2.220446049250313e-16,
+    "mixture_raw": 4.440892098500626e-16,
+    "field_mse_recomputed": 0.0,
+    "leakage": 0.0
+  },
+  "evidence": [
+    {
+      "test": "iid_negative_control",
+      "exact_mse_all_methods": 1.0,
+      "max_raw_random_block_difference": 1.1102230246251565e-15
+    }
+  ],
+  "fresh_cholesky_mc": [
+    {
+      "target": "deploy_interior",
+      "exact_mse": 0.3276920824004784,
+      "cholesky_mc_mse": 0.3256851499587169,
+      "mc_se": 0.0031135007108909567,
+      "z": -0.6445903271328405
+    },
+    {
+      "target": "deploy_edge",
+      "exact_mse": 0.5783858850891808,
+      "cholesky_mc_mse": 0.5784544680688684,
+      "mc_se": 0.006396443552742251,
+      "z": 0.01072204876383064
+    }
+  ],
+  "fresh_cholesky_moments": [
+    {
+      "lag": 0,
+      "observed_second_moment": 0.9948716830797336,
+      "exact_second_moment": 1.0,
+      "z": -0.3282122828970486
+    },
+    {
+      "lag": 1,
+      "observed_second_moment": 0.9698369658061037,
+      "exact_second_moment": 0.9753099120283326,
+      "z": -0.3546189865344802
+    },
+    {
+      "lag": 10,
+      "observed_second_moment": 0.7716326504432978,
+      "exact_second_moment": 0.7788007830714044,
+      "z": -0.5118662496990076
+    },
+    {
+      "lag": 40,
+      "observed_second_moment": 0.3601770675996825,
+      "exact_second_moment": 0.3678794411714415,
+      "z": -0.6542707165909248
+    },
+    {
+      "lag": 100,
+      "observed_second_moment": 0.07694597927002274,
+      "exact_second_moment": 0.08208499862389834,
+      "z": -0.46357179636606666
+    },
+    {
+      "lag": 199,
+      "observed_second_moment": 0.012378232046571614,
+      "exact_second_moment": 0.006908518939454454,
+      "z": 0.49505010369189095
+    }
+  ],
+  "max_ar1_moment_abs_z": 2.065604012159703,
+  "nominal_95pct_mc_intervals_not_covering_exact": [
+    {
+      "ell": 0.0,
+      "method": "deploy_edge",
+      "z": 2.1270355072129994
+    }
+  ],
+  "mc_alerts_over_5se": [],
+  "diagnostic_se_inflation_from_correlated_errors": 3.611600582416167,
+  "long_correlation_check": {
+    "ell": 100000000.0,
+    "finite_ratio": 1.7714282551429343,
+    "analytic_limit": 1.7714285714285718
+  },
+  "number_of_extra_independent_fields": 8192,
+  "reviewer_scope": "Independent algorithms by the same researcher; not independent human peer review"
+}

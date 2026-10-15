@@ -1,0 +1,11 @@
+{
+  "probe_calls": 1,
+  "old_main_called": false,
+  "expm_called": false,
+  "reported_norm_D": 1.0014211682118912e-13,
+  "reported_survival_exact_candidate": true,
+  "reported_constant_infinite": 0.0,
+  "exact_Fraction_review_says_survival_exact": false,
+  "impact": "Unsafe if original illustrative float helper is generalized into a rigorous admission API. Original frozen exact results are not changed.",
+  "correction": "Use exact-zero gate only after Fraction identities; positive tolerance is diagnostic only."
+}

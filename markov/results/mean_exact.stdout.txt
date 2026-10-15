@@ -1,0 +1,9 @@
+main cstar= 29/63 rstar= 66/65 1% threshold= 608458/4095
+ nu= 1/10 applicable= False relative bound= None exact error= 5507/11809
+ nu= 1 applicable= False relative bound= None exact error= 163/812
+ nu= 100 applicable= True relative bound= 10201/810684 exact error= 908/249663
+ nu= 300 applicable= True relative bound= 10201/2448684 exact error= 3151/2580011
+zero_direct_kill cstar= 16/117 rstar= 3/10 1% threshold= 51451/1170
+ nu= 1 applicable= True relative bound= 431/819 exact error= 109/1131
+ nu= 300 applicable= True relative bound= 431/350649 exact error= 4621/11762439
+six exact model-speed pairs checked; no CDF evaluations

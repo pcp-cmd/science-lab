@@ -1,0 +1,17 @@
+{
+  "verified_at_utc": "2026-10-15T11:45:34.440483+00:00",
+  "python": "3.12.14",
+  "dependencies": {
+    "external_packages": "none"
+  },
+  "scope": "Only preserved minimal examples were rerun. No historical experiment suites or new research were run.",
+  "runs": [
+    {
+      "program": "exact_boundary_core.py",
+      "exit_code": 0,
+      "stdout": "exact_boundary_core.stdout.txt",
+      "stderr": "",
+      "sha256": "8dbd9fc3548bec80ee0b15bb0f31fe5e81110a60cf03194263eb1761d6d8cc3d"
+    }
+  ]
+}

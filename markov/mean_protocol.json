@@ -1,0 +1,140 @@
+{
+  "status": "public-model-specification",
+  "question": "After auditing the CDF certificate, can the same Poisson corrector give a separately checkable mean first-passage certificate and an exponential tail bound?",
+  "literature_before_freeze": [
+    {
+      "source": "Meyn and Tweedie 1993, Stability of Markovian Processes III",
+      "url": "https://faculty.eng.ufl.edu/meyn/wp-content/uploads/sites/671/archive/spm_files/Papers_pdf/meytweIII.pdf",
+      "actually_read": "Section 1.3 and Theorem 1.1; CD2 and Theorem 4.3(i), including proof; finite-matrix argument will be supplied separately"
+    },
+    {
+      "source": "Zhang arXiv:1512.08944v2",
+      "actually_read": "prior original unit plus current reread of backward equation argument; reversible theorem not applied to killed model"
+    }
+  ],
+  "conditions": [
+    "all previous finite homogeneous block assumptions",
+    "nu>0",
+    "average killed A transient, mbar=(-A)^(-1)1>0",
+    "z=J*mbar",
+    "c=H*mbar",
+    "r=L*c",
+    "v=z+c/nu must be strictly positive",
+    "g=1-r/nu must be strictly positive"
+  ],
+  "planned_claims": [
+    "Q*v=-1+r/nu",
+    "v/max(g)<=m_nu<=v/min(g), componentwise",
+    "survival_i(t)<=min(1, v_i/min(v)*exp(-min(g)/max(v)*t))",
+    "mean relative error bounded by endpoint intervals relative to z",
+    "with cstar=max(abs(c_i)/z_i), rstar=max(abs(r_i)), sufficient 1% threshold nu>=rstar+100*(cstar+rstar), when cstar+rstar>0; exact mean if both zero"
+  ],
+  "models": {
+    "main": {
+      "K_environment": [
+        [
+          -1,
+          1
+        ],
+        [
+          2,
+          -2
+        ]
+      ],
+      "A_env0": [
+        [
+          -2,
+          1
+        ],
+        [
+          2,
+          -3
+        ]
+      ],
+      "A_env1": [
+        [
+          -5,
+          3
+        ],
+        [
+          1,
+          -4
+        ]
+      ],
+      "state_order": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    "zero_direct_kill": {
+      "K_environment": [
+        [
+          -1,
+          1
+        ],
+        [
+          2,
+          -2
+        ]
+      ],
+      "A_env0": [
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          -2
+        ]
+      ],
+      "A_env1": [
+        [
+          -3,
+          3
+        ],
+        [
+          2,
+          -4
+        ]
+      ]
+    }
+  },
+  "speeds": {
+    "main": [
+      "1/10",
+      "1",
+      "100",
+      "300"
+    ],
+    "zero_direct_kill": [
+      "1",
+      "300"
+    ]
+  },
+  "validation": [
+    "A: NumPy/SciPy builds matrices and solves independently from frozen model; no old helper imports",
+    "B: standard-library Fraction, analytic two-state H, Cramer determinant linear solves; no NumPy/SciPy",
+    "Exact full mean by 4x4 first-step equations checks interval endpoints; six model-speed pairs only",
+    "Keep failures when v or g not positive; failure is uncertified, not infinite true mean",
+    "No CDF grid or 776-point rerun; no Monte Carlo",
+    "Verify exact residual and interval mean bounds; float relative tolerance 1e-10"
+  ],
+  "logical_counterexample": "Use the already-described mixed exponential example only to explain non-implication, without relabeling it as a new finding or a counterexample to the fixed K,L theorem.",
+  "retention": "All six pairs, including rejection cases; no choosing parameters after observing results",
+  "novelty": "unestablished; standard Poisson/Lyapunov comparison adapted to this small tutorial",
+  "version": "1.0.0"
+}

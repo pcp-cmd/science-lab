@@ -1,0 +1,428 @@
+{
+  "computed_at_utc": "2026-10-15T11:43:59.072734+00:00",
+  "implementation": "fresh Fraction Cramer determinants + analytic centered two-state formula",
+  "no_old_grid_or_776_rerun": true,
+  "public_edition": "1.0.0",
+  "models": {
+    "main": {
+      "A": [
+        [
+          "-3",
+          "5/3"
+        ],
+        [
+          "5/3",
+          "-10/3"
+        ]
+      ],
+      "D": [
+        [
+          "1",
+          "-2/3"
+        ],
+        [
+          "-2",
+          "4/3"
+        ],
+        [
+          "1/3",
+          "1/3"
+        ],
+        [
+          "-2/3",
+          "-2/3"
+        ]
+      ],
+      "H": [
+        [
+          "1/3",
+          "-2/9"
+        ],
+        [
+          "-2/3",
+          "4/9"
+        ],
+        [
+          "1/9",
+          "1/9"
+        ],
+        [
+          "-2/9",
+          "-2/9"
+        ]
+      ],
+      "R": [
+        [
+          "22/27",
+          "-20/27"
+        ],
+        [
+          "-2/27",
+          "-8/27"
+        ],
+        [
+          "13/27",
+          "-16/27"
+        ],
+        [
+          "-2/27",
+          "26/27"
+        ]
+      ],
+      "norm_H": "10/9",
+      "norm_H1": "4/9",
+      "norm_R": "14/9",
+      "kappa": "4/3",
+      "mean_averaged": [
+        [
+          "9/13"
+        ],
+        [
+          "42/65"
+        ]
+      ],
+      "constant_kill": "49/18",
+      "constant_column": "1604/585",
+      "strong_exact": false,
+      "survival_exact": false,
+      "krylov_zero_tests": [
+        false,
+        false
+      ],
+      "identities": {
+        "KJ=0": true,
+        "PK=0": true,
+        "PJ=I": true,
+        "PD=0": true,
+        "KH=-D": true,
+        "PH=0": true
+      },
+      "duhamel_taylor_degrees_0_to_4": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "zero_direct_kill": {
+      "A": [
+        [
+          "-5/3",
+          "5/3"
+        ],
+        [
+          "4/3",
+          "-8/3"
+        ]
+      ],
+      "D": [
+        [
+          "2/3",
+          "-2/3"
+        ],
+        [
+          "-4/3",
+          "4/3"
+        ],
+        [
+          "-1/3",
+          "2/3"
+        ],
+        [
+          "2/3",
+          "-4/3"
+        ]
+      ],
+      "H": [
+        [
+          "2/9",
+          "-2/9"
+        ],
+        [
+          "-4/9",
+          "4/9"
+        ],
+        [
+          "-1/9",
+          "2/9"
+        ],
+        [
+          "2/9",
+          "-4/9"
+        ]
+      ],
+      "R": [
+        [
+          "1/3",
+          "-14/27"
+        ],
+        [
+          "2/3",
+          "-20/27"
+        ],
+        [
+          "-1/27",
+          "1/9"
+        ],
+        [
+          "-22/27",
+          "10/9"
+        ]
+      ],
+      "norm_H": "8/9",
+      "norm_H1": "2/9",
+      "norm_R": "52/27",
+      "kappa": "0",
+      "mean_averaged": [
+        [
+          "39/20"
+        ],
+        [
+          "27/20"
+        ]
+      ],
+      "constant_kill": null,
+      "constant_column": "21/5",
+      "strong_exact": false,
+      "survival_exact": false,
+      "krylov_zero_tests": [
+        false,
+        false
+      ],
+      "identities": {
+        "KJ=0": true,
+        "PK=0": true,
+        "PJ=I": true,
+        "PD=0": true,
+        "KH=-D": true,
+        "PH=0": true
+      },
+      "duhamel_taylor_degrees_0_to_4": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "survival_exact_not_lumpable": {
+      "A": [
+        [
+          "-8/3",
+          "5/3"
+        ],
+        [
+          "5/3",
+          "-8/3"
+        ]
+      ],
+      "D": [
+        [
+          "2/3",
+          "-2/3"
+        ],
+        [
+          "-4/3",
+          "4/3"
+        ],
+        [
+          "1/3",
+          "-1/3"
+        ],
+        [
+          "-2/3",
+          "2/3"
+        ]
+      ],
+      "H": [
+        [
+          "2/9",
+          "-2/9"
+        ],
+        [
+          "-4/9",
+          "4/9"
+        ],
+        [
+          "1/9",
+          "-1/9"
+        ],
+        [
+          "-2/9",
+          "2/9"
+        ]
+      ],
+      "R": [
+        [
+          "17/27",
+          "-17/27"
+        ],
+        [
+          "-22/27",
+          "22/27"
+        ],
+        [
+          "16/27",
+          "-16/27"
+        ],
+        [
+          "-26/27",
+          "26/27"
+        ]
+      ],
+      "norm_H": "8/9",
+      "norm_H1": "0",
+      "norm_R": "52/27",
+      "kappa": "1",
+      "mean_averaged": [
+        [
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "constant_kill": "76/27",
+      "constant_column": "76/27",
+      "strong_exact": false,
+      "survival_exact": true,
+      "krylov_zero_tests": [
+        true,
+        true
+      ],
+      "identities": {
+        "KJ=0": true,
+        "PK=0": true,
+        "PJ=I": true,
+        "PD=0": true,
+        "KH=-D": true,
+        "PH=0": true
+      },
+      "duhamel_taylor_degrees_0_to_4": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  },
+  "negative_controls": {
+    "orientation": {
+      "Q1": [
+        [
+          "0"
+        ],
+        [
+          "-2"
+        ]
+      ],
+      "QT1": [
+        [
+          "-1"
+        ],
+        [
+          "-1"
+        ]
+      ]
+    },
+    "norm": {
+      "induced_infinity": "2",
+      "max_absolute_entry": "1"
+    },
+    "non_subgenerator": "Q=[1] has exp(Qt)=exp(t)>1; contraction is false",
+    "split_target": "Killed K=[-1], hence KJ=-1, incompatible",
+    "reducible_block": "K=0 on two states and one coarse block: K+JP singular, KH=-D impossible for nonzero D",
+    "nontransient_average": "A=[0]: -A*m=1 has no solution",
+    "only_D1": {
+      "D1": [
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ],
+        [
+          "0"
+        ]
+      ],
+      "DA1": [
+        [
+          "2/3"
+        ],
+        [
+          "-4/3"
+        ],
+        [
+          "-1/3"
+        ],
+        [
+          "2/3"
+        ]
+      ],
+      "conclusion": "equal initial hazards do not imply equal survival distributions"
+    },
+    "max_integral_swap": {
+      "A": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-2",
+          "2"
+        ],
+        [
+          "0",
+          "0",
+          "-2"
+        ]
+      ],
+      "mean": [
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1/2"
+        ]
+      ],
+      "max_integral": "1",
+      "integral_of_max_lower_bound": "1+exp(-1)-2*exp(-2)>1, since exp(1)>2",
+      "lower_bound_approx": 1.097208874698217
+    },
+    "tiny_nonzero": {
+      "epsilon": "1/10000000000000",
+      "D": [
+        [
+          "1/10000000000000"
+        ],
+        [
+          "-1/10000000000000"
+        ]
+      ],
+      "exact_survival": false,
+      "survival_derivative_difference_at_zero": [
+        [
+          "1/10000000000000"
+        ],
+        [
+          "-1/10000000000000"
+        ]
+      ],
+      "expected_float_gate_misclassification": "original tolerance 1e-12 treats nonzero D1 as zero"
+    }
+  },
+  "main_1percent_threshold_exact": "2450/9",
+  "status": "mathematical certificate passed bounded audit; float-only zero gate unsafe for generalized reuse",
+  "novelty": "not established",
+  "peer_review": false
+}

@@ -1,0 +1,29 @@
+{
+  "tiny_nonzero": {
+    "exact_survival": false,
+    "constant_all_time": "20000000000003/200000000000020000000000000",
+    "bound_all_time": "20000000000003/200000000000020000000000000",
+    "admitted_all_time": true,
+    "bound_finite_horizon": "4000000000001/40000000000000000000000000",
+    "horizon": "5"
+  },
+  "exact_nonabsorbing": {
+    "exact_survival": true,
+    "constant_all_time": "0",
+    "bound_all_time": "0",
+    "admitted_all_time": true,
+    "bound_finite_horizon": "0",
+    "horizon": "5"
+  },
+  "nonexact_nonabsorbing": {
+    "exact_survival": false,
+    "constant_all_time": null,
+    "bound_all_time": null,
+    "admitted_all_time": false,
+    "bound_finite_horizon": "16/135",
+    "horizon": "5"
+  },
+  "float_input_rejected": true,
+  "all_checks_passed": true,
+  "CDF_evaluations": 0
+}

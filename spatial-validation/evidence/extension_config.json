@@ -1,0 +1,50 @@
+{
+  "n": 200,
+  "width": 40,
+  "score_count": 20,
+  "true_lengths": [
+    0,
+    0.5,
+    2,
+    5,
+    10,
+    20,
+    40,
+    80,
+    200
+  ],
+  "assumed_lengths": [
+    0,
+    2,
+    10,
+    40,
+    200
+  ],
+  "secondary_assumed_length": 40,
+  "root_assumed_length": 10,
+  "root_bracket": [
+    0.5,
+    20
+  ],
+  "mc_cases": [
+    [
+      0,
+      10
+    ],
+    [
+      2,
+      10
+    ],
+    [
+      40,
+      40
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "mc_replicates": 2048,
+  "mc_seed": 2026101507,
+  "tolerance": 1e-09
+}

@@ -1,0 +1,4 @@
+positive denominator at 96 bits: [0, 1/2**96]
+exact independent certificate: SAFE, [-0.005384615385, -0.005384615384] ppm
+exact certificate width is below 4e-30 ppm
+PASS: Fraction decisions; no numerical integration or external files.
