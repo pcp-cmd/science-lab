@@ -46,3 +46,10 @@ The first collection is dated 2026-10-15. It contains reading guides, runnable e
 Passing a code check is not peer review of a theory. Reading an exercise or running a program does not establish mastery.
 
 See each module for references and assumptions. Questions tied to a specific input, output, or derivation are welcome.
+
+## Universal Gap A | Research progress
+
+- **Completed:** A written proof for finite-dimensional elementary algebras with at most four vertices, with internal review after corrections.
+- **Extended:** Additional cases with more vertices under established reduction conditions.
+- **Ongoing:** The general case with no bound on the number of vertices. A complete proof has not yet been obtained.
+- **Verification:** Independent peer review and formal verification of the full four-vertex result remain pending. Proofs and research details are withheld.
